@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Honora's Adverntures</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    
+    <!--Javascript code adopted and edited from Javascript Kit:
+    http://www.javascriptkit.com/howto/show2.shtml */-->
+    
+    <!--Pictures taken by the site's author. */-->
+        
+    <script type="text/javascript">
+        var slide = new Array();
+        slide[0] = new Image();
+        slide[0].src = "../images/greentealavacake.jpg";
+        slide[1] = new Image();
+        slide[1].src = "../images/mochi.jpg";
+        slide[2] = new Image();
+        slide[2].src = "../images/stew.jpg";
+        slide[3]= new Image();
+        slide[3].src = "../images/mingtomb.jpg";
+        slide[4]= new Image();
+        slide[4].src = "../images/watershow.jpg";
+        slide[5]= new Image();
+        slide[5].src = "../images/seaside.jpg";
+    </script>
+    
+</head>
+
+<body>
+    
+    <div id = "banner">
+        <h1>Honora's Adventures</h1>
+        <h2>All about interesting food I ate and interesting places I visited</h2>
+    </div>
+    
+    <div id = "nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="places.html">Places</a></li>
+        <li><a href="contact.php">Contact Me</a></li>
+    </ul>
+    </div>
+    
+    <div id = "indexcontent">
+        <img src="../images/greentealavacake.jpg" alt="Green Tea Lava Cake" id="slide">
+        
+        <script type="text/javascript">
+
+        var i=0;
+
+        function slideshow(){
+
+        if (!document.images)
+            return;
+        
+        document.getElementById('slide').src = slide[i].src;
+        
+        if (i<5)
+            i=i+1;
+        else
+            i=0;
+
+        setTimeout("slideshow()",3000);     
+        }
+
+    slideshow();
+
+        </script>
+        
+    </div>
+    
+    <div id = "footer">
+        All pictures are taken by the site's author. <p>
+    </div>
+
+</body>
+</html>

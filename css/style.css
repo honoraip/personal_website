@@ -1,0 +1,145 @@
+/* Basic page settings */
+body {
+    background-color: #FFFFFF;
+}
+
+/* Banner style */
+#banner {
+    background-color: #c1c8dd;
+    font-family: Garamond, "Times New Roman", serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border: solid 10px #000000;
+}
+
+#banner h1 {
+    color: #000000;
+    font-size: 40px;
+    padding-left: 1em;
+    text-align: left;
+}
+
+#banner h2 {
+    color: #000000;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 1.5em;
+}
+
+/* Navigation bar styling adopted and edited from W3Schools */
+/* http://www.w3schools.com/css/css_navbar.asp */
+/* Navigation bar style */
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px #000000;
+    margin-bottom: 2em;
+}
+
+#nav li {
+    float: left;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 25px;
+}
+
+#nav li a {
+    display: block;
+    color: #c1c8dd;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #232323;
+}
+
+/* Index page image style */
+#indexcontent {
+    width: 80%;
+    border: solid 10px #000000;
+    background: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+#indexcontent img {
+    height: 600px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Content box style */
+.content {
+    border: solid 10px #c1c8dd;
+    margin-bottom: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c1c8dd;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content img {
+    height: 300px;
+    width: 400px;
+    border: solid 20px #FFFFFF;
+    float: left;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+.content span {
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+    text-align: right;
+    color: #000000;
+}
+
+/*Footer styling */
+#footer {
+    background-color: #000000;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 20px;
+    color: #c1c8dd;
+    width: 80%;
+    text-align: center;
+    border: solid 10px #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Form styling */
+#form {
+    border: solid 10px #c1c8dd;
+    margin-bottom: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c1c8dd;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 26px;
+    text-align: left;
+    color: #000000;
+}
+
+
